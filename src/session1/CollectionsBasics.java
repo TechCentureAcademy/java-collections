@@ -14,7 +14,6 @@ public class CollectionsBasics {
 		//3. Queue: Another collection type that allows to save items in first in, first out
 		//4. Stack: Another collection type that allows to save items in last in, first out
 		
-		
 		//Maps:
 		//1. Maps: Allows you to save data in a key-value pair
 		//In Maps, keys are always unique, and values can be duplicate

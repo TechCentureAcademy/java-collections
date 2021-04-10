@@ -1,0 +1,32 @@
+Collection Notes
+
+1. Difference between Arrays and ArrayLists?
+Arrays have fixed size, which means ones you create an array, you must specify the size and that size
+will never change i.e you cannot expand it or reduce it. If you are trying to add one more element to
+your array where it was full, you need to create a new array where the size will be oldArray.length+1
+With arrays, we are using [] to fetch elements or access elements on a specific index
+
+With ArrayLists, we do not have to specify the size, the size will be managed dynamically, it will shrink
+or expand automatically. With ArrayList, we are only using methods to access or to fetch elements
+ArrayLIsts guarantee order, they save data in sequential order
+
+
+ArrayList vs LinkedList
+
+ArrayList uses a regular Array behind the scenes. It abstracts out from the user, all the adding and 
+removing mechanisms, 
+
+LinkedList however does not use a regular Array, instead it uses something called Nodes
+
+
+Maps
+Map interface has multiple implementation classes such as Hashtable, HashMap, LinkedHashMap, Properties
+
+Hashmap is a poppular implementation class that is used in test automation because it performs much faster compared 
+to hashtable. But Hashmap does not guarantee order.
+
+When using maps, we have to specify key and value. Keys must be unique like sets, but values can be duplicate.
+Keys in Map are always unique, which means even if you add keys multiple times, the last occurrence of that key will override
+the previous value
+Values in Map can be duplicate
+
